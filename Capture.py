@@ -17,7 +17,7 @@ def settings():
 	while True:
 		ret,frame = cap.read();
 
-		if not ref:
+		if not ret:
 			print('ret is error');
 			break;
 
