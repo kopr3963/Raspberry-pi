@@ -28,5 +28,5 @@ def settings():
 		if k == 27:
 			break;
 		cap.release();
-		cv2.destroytAllWindows();
+		cv2.destroyAllWindows();
 settings();
