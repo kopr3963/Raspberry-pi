@@ -1,12 +1,7 @@
 # Capture.py
 #_*_coding: utf-8-*-
-
-
 import cv2
 import numpy as numpy
-
-
-
 
 def settings():
 	try:
