@@ -23,7 +23,7 @@ while(True):
   		x1 = int(x0 + 1000* (-b));
   		y1 = int(y0 + 1000*a);
   		x2 = int(x0 - 1000*(-b));
-  		y2 = int(y0 - 1000*a));
+  		y2 = int(y0 - 1000*a);
 		
 		cv2.line(ret, (x1, y1), (x2, y2), (0,255,0,),1);
 		
