@@ -30,3 +30,6 @@ def settings():
 		cap.release();
 		cv2.destroyAllWindows();
 settings();
+
+
+
